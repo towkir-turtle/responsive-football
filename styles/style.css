@@ -8,12 +8,19 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* Reusable components */
+section {
+  margin-bottom: 70px;
+}
+.main-title {
+  font-size: 42px;
+  color: #173562;
+}
 
 /* BANNER SECTION STYLES */
 .banner-section {
   background-color: #2d25a0;
   height: 100vh;
-  margin-bottom: 70px;
 }
 .row {
   width: 1140px;
@@ -42,13 +49,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
-  transform: all 0.3 ease;
-}
-.live-btn span {
-  margin: 0 8px;
+  transition: 0.7s;
 }
 .banner-left a:hover {
   padding-left: 10px;
+}
+.live-btn span {
+  margin: 0 8px;
 }
 .half-width img {
   width: 556.01px;
@@ -62,7 +69,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 27px;
   grid-column-gap: 30px;
-  margin-bottom: 70px;
 }
 .player {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
@@ -83,9 +89,51 @@ body {
   line-height: 26px;
   color: #6c6c6c;
 }
+/* News section styles */
+.news-container {
+  display: flex;
+  margin-top: 30px;
+}
+.news {
+  margin-right: 20px;
+}
+.news:last-child {
+  margin-right: 0;
+}
+
+.news img {
+  width: 270px;
+  height: 200px;
+}
+.news .intro {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+}
+.news .news-date {
+  font-size: 14px;
+  line-height: 26px;
+  color: #6c6c6c;
+}
+.news .news-title {
+  font-size: 20px;
+  color: #000;
+}
+
+/* Team section styles */
+.teams {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+}
+.team img {
+  width: 100%;
+}
+
 /* Footer styles */
 footer {
-  margin: 70px 0;
+  margin-bottom: 70px;
 }
 .footer-content {
   width: 40%;
