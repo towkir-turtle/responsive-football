@@ -8,7 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-/* Reusable components */
+/* REUSABLE COMPONENTS */
 section {
   margin-bottom: 70px;
 }
@@ -70,7 +70,7 @@ section {
   margin-top: 153px;
 }
 
-/* Players section styles */
+/* PLAYERS SECTION STYLES */
 .players-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -96,7 +96,7 @@ section {
   line-height: 26px;
   color: #6c6c6c;
 }
-/* News section styles */
+/* NEWS SECTION STYLES */
 .news-container {
   display: flex;
   margin-top: 30px;
@@ -129,7 +129,7 @@ section {
   color: #000;
 }
 
-/* Team section styles */
+/* TEAM SECTION STYLES */
 .teams {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -139,7 +139,7 @@ section {
   width: 100%;
 }
 
-/* Footer styles */
+/* FOOTER SECTION STYLES */
 footer {
   margin-bottom: 70px;
 }
@@ -169,19 +169,20 @@ footer {
   font-size: 18px;
 }
 
-/* Media Queries */
+/* MEDIA QUERIES */
 
 /* Mobile device */
 @media only screen and (max-width: 480px) {
+  /* banner section styles  */
   .row {
     width: 100%;
   }
   .banner-container {
-    /* width: 100%; */
     flex-direction: column;
+    overflow: hidden;
   }
   .banner-left {
-    width: 278px;
+    width: 350px;
     margin-top: 70px;
     padding-left: 20px;
   }
